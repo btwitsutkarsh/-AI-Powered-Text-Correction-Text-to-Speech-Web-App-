@@ -1,22 +1,28 @@
-🎤 Text-to-Speech Web App with AI-Powered Text Correction
 
-This is a Flask-based Text-to-Speech Web App that: ✅ Corrects spelling & grammar mistakes using Perplexity AI
-✅ Converts text to speech using macOS system voices
-✅ Supports Male/Female voices
-✅ Allows age-based voice customization (Child, Teen, Adult, Old)
-✅ Includes playback speed control
+# 🎤 Text-to-Speech Web App with AI-Powered Text Correction
 
-🚀 Features
+This is a **Flask-based Text-to-Speech Web App** that:
+✅ Corrects spelling & grammar mistakes using **Perplexity AI**  
+✅ Converts text to speech using **macOS system voices**  
+✅ Supports **Male/Female voices**  
+✅ Allows **age-based voice customization** (Child, Teen, Adult, Old)  
+✅ Includes **playback speed control**  
 
-AI-Powered Grammar Correction: Fixes spelling & grammar mistakes automatically.
-Realistic Text-to-Speech: Uses macOS built-in voices (say command).
-Age-Based Voice Selection: Different voices & speeds for Child, Teen, Adult, Old.
-Male/Female Voice Selection: Choose between male (Alex, Daniel, Grandpa) or female (Samantha, Flo, Grandma).
-Playback Speed Control: Adjust speech speed dynamically.
-🛠️ Installation & Setup
+---
 
-1️⃣ Clone the Repository
+## 🚀 Features
+- **AI-Powered Grammar Correction:** Fixes spelling & grammar mistakes automatically.
+- **Realistic Text-to-Speech:** Uses macOS built-in voices (`say` command).
+- **Age-Based Voice Selection:** Different voices & speeds for **Child, Teen, Adult, Old**.
+- **Male/Female Voice Selection:** Choose between male (`Alex`, `Daniel`, `Grandpa`) or female (`Samantha`, `Flo`, `Grandma`).
+- **Playback Speed Control:** Adjust speech speed dynamically.
 
+---
+
+## 🛠️ Installation & Setup
+
+### **1️⃣ Clone the Repository**
+```sh
 git clone 
 cd text-to-speech
 
