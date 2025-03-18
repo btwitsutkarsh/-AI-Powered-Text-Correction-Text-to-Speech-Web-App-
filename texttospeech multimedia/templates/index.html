@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 id="greeting">Hello, User!</h1>
+        <h2>This is my Multimedia Project</h2>
+
+        <label for="name">Enter your Name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+
+        <label for="text">Enter your Text:</label>
+        <textarea id="text" placeholder="Type here..."></textarea>
+
+        <label for="voice">Select Voice:</label>
+        <select id="voice">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label for="age">Select Age Group:</label>
+        <select id="age">
+            <option value="child">Child</option>
+            <option value="teen">Teen</option>
+            <option value="adult" selected>Adult</option>
+            <option value="old">Old</option>
+        </select>
+
+        <button onclick="processText()">Generate Speech</button>
+
+        <h3>Corrected Text:</h3>
+        <p id="correctedText"></p>
+
+        <audio id="audioPlayer" controls>
+            <source id="audioSource" src="" type="audio/mp3">
+        </audio>
+
+        <label for="speed">Playback Speed:</label>
+        <input type="range" id="speed" min="0.5" max="2" step="0.1" value="1">
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
